@@ -27,7 +27,7 @@ export const STATUS_CONFIG = {
   cancelled:  { label: 'Cancelled',   color: 'error' },
 }
 
-// ─── REQUESTS ─────────────────────────────────────────────────────────────────
+//  ─── REQUESTS ─────────────────────────────────────────────────────────────────
 export const mockRequests = [
   { id: 'REQ-001', type: 'Organic Waste',    qty: 50,  unit: 'kg',   loc: 'MG Road, Pune',      status: 'pending',    producer: 'Green Salon',   date: '2025-04-10', priority: 'high' },
   { id: 'REQ-002', type: 'Hair/Salon Waste', qty: 20,  unit: 'kg',   loc: 'FC Road, Pune',       status: 'accepted',   producer: 'Beauty Hub',    date: '2025-04-10', priority: 'medium', agent: 'Rajan Kumar' },
